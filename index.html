@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="hero">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>I'm Vinh Vong</h1>
+          <h4>Full Stack Web Developer & Restaurant Owner</h4>
+          <div id="contact" class="hero-icons">
+            <ul>
+              <li>
+                <a
+                  href="https://www.facebook.com/vinh.vonghoang/"
+                  targer="_blank"
+                  ><i class="fab fa-circle fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/vinh-vong-hoang-8070b0187/"
+                  targer="_blank"
+                  ><i class="fab fa-circle fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/vonghoangvinh1989business"
+                  targer="_blank"
+                  ><i class="fab fa-circle fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="hero-img">
+          <img
+            id="profile-photo"
+            src="./img/profile.jpg"
+            alt="Profile Picture"
+          />
+        </article>
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <div class="about">
+          <article class="about-img">
+            <img id="about-photo" src="./img/about.jpg" alt="About Picture" />
+          </article>
+          <article class="about-info">
+            <h1>About</h1>
+            <div class="underline"></div>
+            <p>
+              My name is Vong Hoang Vinh and I am currently open a restaurant
+              with my mom at Tan Phu District, Ho Chi Minh City.
+            </p>
+            <p>
+              My field of interests are programming, psychology and business.
+            </p>
+            <p>
+              I have experienced coding and working on out-source companies
+              about 3 for 4 years more. I have background on programming,
+              especially as a role of Back-end developer and working on Python
+              programming is my daily tasks.
+            </p>
+            <p>
+              I love to build websites and seeing how every web components
+              working together. Right now, I am taking a Fullstack Webdeveloper
+              Course at CoderSchool to enhance my programming knowledge as well
+              as learning Javascript stack - MERN, which is new to me.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="skills">
+          <h2>Skills</h2>
+          <div class="underline"></div>
+          <div class="skills-center">
+            <article>
+              <h3>Languages</h3>
+              <div class="skill-box">
+                <div>
+                  <img
+                    class="skill-icons"
+                    src="./img/logos/python.svg"
+                    loading="lazy"
+                    alt="python"
+                  />
+                  <p class="skill-name">Python</p>
+                </div>
+                <div>
+                  <img
+                    class="skill-icons"
+                    src="./img/logos/javascript.svg"
+                    loading="lazy"
+                    alt="javascript"
+                  />
+                  <p class="skill-name">Javascript</p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <h3>Technologies</h3>
+              <div class="skill-box">
+                <div>
+                  <img
+                    class="skill-icons"
+                    src="./img/logos/django.svg"
+                    loading="lazy"
+                    alt="django"
+                  />
+                  <p class="skill-name">Django</p>
+                </div>
+
+                <div>
+                  <img
+                    class="skill-icons"
+                    src="./img/logos/node-js.svg"
+                    loading="lazy"
+                    alt="nodejs"
+                  />
+                  <p class="skill-name">Node js</p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <h3>Tools</h3>
+              <div class="skill-box">
+                <div>
+                  <img
+                    class="skill-icons"
+                    src="./img/logos/vscode.svg"
+                    loading="lazy"
+                    alt="vscode"
+                  />
+                  <p class="skill-name">Vs code</p>
+                </div>
+                <div>
+                  <img
+                    class="skill-icons"
+                    src="./img/logos/git.svg"
+                    loading="lazy"
+                    alt="git"
+                  />
+                  <p class="skill-name">Git</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <h2>
+          <p>
+            © <span id="date">2022</span> Vong Hoang Vinh. All rights reserved.
+          </p>
+        </h2>
+      </div>
+    </footer>
+  </body>
+</html>
